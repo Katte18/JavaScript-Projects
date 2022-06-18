@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  border: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url('https://images.unsplash.com/photo-1515146871454-c2f1253d4148?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80')
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  background-color: #B8A99A;
+  opacity: 0.95;
+  width: 500px;
+  height: 500px;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 55px;
+}
+
+h1,
+h2,
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h3 {
+  font-size: 32px;
+  color: #432A36;
+}
+
+p {
+  margin-top: 45px;
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+
+button {
+  position: relative;
+  margin-top: 65px;
+  padding: 15px;
+  font-size: 14px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+
+#increment-btn {
+  float: left;
+  color: #B34745;
+}
+
+#save-btn {
+  float: right;
+  color: #087801;
+}
